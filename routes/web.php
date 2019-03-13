@@ -24,7 +24,7 @@ Route::put('post/{id}', function ($id) {})->middleware('role:editor');
 
 //Route::resource('peoples', 'PeoplesController'); // Наш контроллер - сразу с набором возможностей
 
-
+//
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
